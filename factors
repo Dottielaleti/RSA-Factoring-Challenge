@@ -1,2 +1,6 @@
-#!/usr/bin/env bash
-python3 factors.py
+#!/usr/bin/python3
+if __name__ == '__main__':
+    import sys
+    import factors
+
+    factors.factorize(sys.argv[1])
